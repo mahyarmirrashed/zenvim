@@ -40,7 +40,7 @@ end
 
 require("lze").load({
   {
-    "famous-quotes-nvim",
+    "famous-quotes.nvim",
     dep_of = "alpha-nvim",
     lazy = false,
     after = function(_) require("famous-quotes").setup() end,
