@@ -57,10 +57,10 @@ let
   ];
 
   extraPackages = with pkgs; [
-    # language servers
+    # >>> Language servers
     lua-language-server
     nil
-    # dependencies
+    # >>> Dependencies
     lazygit
   ];
 in
