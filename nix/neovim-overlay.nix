@@ -55,6 +55,7 @@ let
     # bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     # >>> Miscellaneous
+    better-escape-nvim # https://github.com/max397574/better-escape.nvim
     which-key-nvim # https://github.com/folke/which-key.nvim
   ];
 
