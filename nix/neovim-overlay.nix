@@ -68,6 +68,7 @@ let
     famous-quotes-nvim # greeter quotes | https://github.com/mahyarmirrashed/famous-quotes-nvim
     fidget-nvim # notification display | https://github.com/j-hui/fidget.nvim
     gitsigns-nvim # git sidebar display | https://github.com/lewis6991/gitsigns.nvim
+    oil-nvim # file explorer | https://github.com/stevearc/oil.nvim
     # ^ UI
     # language support
     # ^ language support
