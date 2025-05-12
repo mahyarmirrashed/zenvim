@@ -41,6 +41,7 @@ let
     alpha-nvim # greeter | https://github.com/goolord/alpha-nvim
     famous-quotes-nvim # greeter quotes | https://github.com/mahyarmirrashed/famous-quotes-nvim
     fidget-nvim # notification display | https://github.com/j-hui/fidget.nvim
+    gruvbox-nvim # gruvbox theme | https://github.com/ellisonleao/gruvbox.nvim
     lualine-nvim # status line | https://github.com/nvim-lualine/lualine.nvim/
     oil-nvim # file explorer | https://github.com/stevearc/oil.nvim
     # >>> Plugin dependencies
