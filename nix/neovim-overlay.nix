@@ -100,6 +100,7 @@ in
   nvim-pkg = mkNeovim {
     plugins = all-plugins;
     inherit extraPackages;
+    appName = "zenvim";
   };
 
   # This is meant to be used within a devshell.
@@ -108,7 +109,7 @@ in
   nvim-dev = mkNeovim {
     plugins = all-plugins;
     inherit extraPackages;
-    appName = "nvim-dev";
+    appName = "zenvim-dev";
     wrapRc = false;
   };
 
