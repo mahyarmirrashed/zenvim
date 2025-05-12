@@ -34,17 +34,17 @@ let
     # Plugins from nixpkgs go in here.
     # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
-    lze # lazy-loader | https://github.com/BirdeeHub/lze
+    lze # https://github.com/BirdeeHub/lze
     # >>> Git integration
-    gitsigns-nvim # git sidebar display | https://github.com/lewis6991/gitsigns.nvim
-    lazygit-nvim # lazygit integration | https://github.com/kdheepak/lazygit.nvim
+    gitsigns-nvim # https://github.com/lewis6991/gitsigns.nvim
+    lazygit-nvim # https://github.com/kdheepak/lazygit.nvim
     # >>> UI
-    alpha-nvim # greeter | https://github.com/goolord/alpha-nvim
-    famous-quotes-nvim # greeter quotes | https://github.com/mahyarmirrashed/famous-quotes-nvim
-    fidget-nvim # notification display | https://github.com/j-hui/fidget.nvim
-    gruvbox-nvim # gruvbox theme | https://github.com/ellisonleao/gruvbox.nvim
-    lualine-nvim # status line | https://github.com/nvim-lualine/lualine.nvim/
-    oil-nvim # file explorer | https://github.com/stevearc/oil.nvim
+    alpha-nvim # https://github.com/goolord/alpha-nvim
+    famous-quotes-nvim # https://github.com/mahyarmirrashed/famous-quotes-nvim
+    fidget-nvim # https://github.com/j-hui/fidget.nvim
+    gruvbox-nvim # https://github.com/ellisonleao/gruvbox.nvim
+    lualine-nvim # https://github.com/nvim-lualine/lualine.nvim/
+    oil-nvim # https://github.com/stevearc/oil.nvim
     # >>> Plugin dependencies
     sqlite-lua
     plenary-nvim
@@ -53,7 +53,7 @@ let
     # bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     # >>> Miscellaneous
-    which-key-nvim # shows keymappings interactively | https://github.com/folke/which-key.nvim
+    which-key-nvim # https://github.com/folke/which-key.nvim
   ];
 
   extraPackages = with pkgs; [
