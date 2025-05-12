@@ -66,6 +66,7 @@ let
     nvim-treesitter-context # nvim-treesitter-context
     alpha-nvim # greeter | https://github.com/goolord/alpha-nvim
     famous-quotes-nvim # greeter quotes | https://github.com/mahyarmirrashed/famous-quotes-nvim
+    fidget-nvim # notification display | https://github.com/j-hui/fidget.nvim
     # ^ UI
     # language support
     # ^ language support
