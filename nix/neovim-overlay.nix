@@ -47,16 +47,14 @@ let
     gruvbox-nvim # https://github.com/ellisonleao/gruvbox.nvim
     lualine-nvim # https://github.com/nvim-lualine/lualine.nvim/
     oil-nvim # https://github.com/stevearc/oil.nvim
-    # >>> Plugin dependencies
-    sqlite-lua
-    plenary-nvim
-    nvim-web-devicons
-    vim-repeat
     # bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     # >>> Miscellaneous
     better-escape-nvim # https://github.com/max397574/better-escape.nvim
     which-key-nvim # https://github.com/folke/which-key.nvim
+    # >>> Plugin dependencies
+    plenary-nvim
+    nvim-web-devicons
   ];
 
   extraPackages = with pkgs; [
