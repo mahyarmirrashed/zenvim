@@ -34,6 +34,7 @@ let
     # plugins from nixpkgs go in here.
     # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
+    lze # lazy-loader | https://github.com/BirdeeHub/lze
     luasnip # snippets | https://github.com/l3mon4d3/luasnip/
     # nvim-cmp (autocompletion) and extensions
     nvim-cmp # https://github.com/hrsh7th/nvim-cmp
@@ -63,6 +64,8 @@ let
     nvim-navic # Add LSP location to lualine | https://github.com/SmiteshP/nvim-navic
     statuscol-nvim # Status column | https://github.com/luukvbaal/statuscol.nvim/
     nvim-treesitter-context # nvim-treesitter-context
+    alpha-nvim # greeter | https://github.com/goolord/alpha-nvim
+    famous-quotes-nvim # greeter quotes | https://github.com/mahyarmirrashed/famous-quotes-nvim
     # ^ UI
     # language support
     # ^ language support
