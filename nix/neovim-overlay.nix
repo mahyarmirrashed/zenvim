@@ -37,6 +37,7 @@ let
     lze # lazy-loader | https://github.com/BirdeeHub/lze
     # >>> Git integration
     gitsigns-nvim # git sidebar display | https://github.com/lewis6991/gitsigns.nvim
+    lazygit-nvim # lazygit integration | https://github.com/kdheepak/lazygit.nvim
     # >>> UI
     alpha-nvim # greeter | https://github.com/goolord/alpha-nvim
     famous-quotes-nvim # greeter quotes | https://github.com/mahyarmirrashed/famous-quotes-nvim
@@ -56,9 +57,11 @@ let
   ];
 
   extraPackages = with pkgs; [
-    # language servers, etc.
+    # language servers
     lua-language-server
     nil
+    # dependencies
+    lazygit
   ];
 in
 {
