@@ -53,7 +53,7 @@ let
     # bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     # >>> Miscellaneous
-    which-key-nvim
+    which-key-nvim # shows keymappings interactively | https://github.com/folke/which-key.nvim
   ];
 
   extraPackages = with pkgs; [
