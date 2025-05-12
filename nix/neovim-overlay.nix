@@ -51,6 +51,7 @@ let
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     # >>> Miscellaneous
     better-escape-nvim # https://github.com/max397574/better-escape.nvim
+    cloak-nvim # https://github.com/laytan/cloak.nvim
     nvim-autopairs # https://github.com/windwp/nvim-autopairs
     which-key-nvim # https://github.com/folke/which-key.nvim
     # >>> Plugin dependencies
