@@ -63,6 +63,7 @@ let
     # >>> Plugin dependencies
     plenary-nvim
     nvim-web-devicons
+    treesj
   ];
 
   extraPackages = with pkgs; [
