@@ -37,6 +37,7 @@ let
     lze # https://github.com/BirdeeHub/lze
     lzextras # https://github.com/BirdeeHub/lzextras
     # >>> Editor
+    auto-session # https://github.com/rmagatti/auto-session
     blink-cmp # https://github.com/Saghen/blink.cmp
     conform-nvim # https://github.com/stevearc/conform.nvim
     nvim-lint # https://github.com/mfussenegger/nvim-lint
