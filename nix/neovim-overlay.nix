@@ -83,7 +83,9 @@ let
     stylua
     yamlfmt
     # >>> Dependencies
+    fd
     lazygit
+    ripgrep
   ];
 in
 {
