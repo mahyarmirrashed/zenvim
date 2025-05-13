@@ -53,6 +53,7 @@ let
     better-escape-nvim # https://github.com/max397574/better-escape.nvim
     cloak-nvim # https://github.com/laytan/cloak.nvim
     comment-nvim # https://github.com/numToStr/Comment.nvim
+    mini-surround # https://github.com/echasnovski/mini.surround
     nvim-autopairs # https://github.com/windwp/nvim-autopairs
     which-key-nvim # https://github.com/folke/which-key.nvim
     # >>> Plugin dependencies
