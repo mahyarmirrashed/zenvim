@@ -37,6 +37,7 @@ let
     lze # https://github.com/BirdeeHub/lze
     # >>> Editor
     nvim-lint # https://github.com/mfussenegger/nvim-lint
+    trouble-nvim # https://github.com/folke/trouble.nvim
     # >>> Git integration
     gitsigns-nvim # https://github.com/lewis6991/gitsigns.nvim
     lazygit-nvim # https://github.com/kdheepak/lazygit.nvim
