@@ -36,6 +36,7 @@ vim.opt.listchars = { -- customize invisible characters
   extends = ">",
   precedes = "<",
 }
+vim.opt.cmdheight = 0 -- remove command line on bottom
 
 -- Tabs and Indentation
 vim.opt.expandtab = true -- convert tabs to spaces
