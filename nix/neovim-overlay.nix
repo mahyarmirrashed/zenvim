@@ -35,6 +35,8 @@ let
     # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
     lze # https://github.com/BirdeeHub/lze
+    # >>> Editor
+    nvim-lint # https://github.com/mfussenegger/nvim-lint
     # >>> Git integration
     gitsigns-nvim # https://github.com/lewis6991/gitsigns.nvim
     lazygit-nvim # https://github.com/kdheepak/lazygit.nvim
@@ -66,6 +68,8 @@ let
     # >>> Language servers
     lua-language-server
     nil
+    # >>> Linters
+    hadolint
     # >>> Dependencies
     lazygit
   ];
