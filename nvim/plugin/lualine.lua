@@ -20,9 +20,14 @@ require("lze").load({
 
     -- Map <leader>1 to <leader>9 for jumping to buffers 1 through 9
     for i = 1, 9 do
-      vim.keymap.set("n", "<leader>" .. i, ":LualineBuffersJump " .. i .. "<cr>", { noremap = true, silent = true })
+      vim.keymap.set(
+        "n",
+        "<leader>" .. i,
+        ":LualineBuffersJump " .. i .. "<cr>",
+        { noremap = true, silent = true, desc = "Go to buffer " .. i }
+      )
     end
-    -- <leader>0 goes to the last buffer
-    vim.keymap.set("n", "<leader>0", ":b#<cr>", { noremap = true, silent = true })
+    -- <leader>0 jumps to the last buffer
+    vim.keymap.set("n", "<leader>0", ":b#<cr>", { noremap = true, silent = true, desc = "Go to last buffer" })
   end,
 })
