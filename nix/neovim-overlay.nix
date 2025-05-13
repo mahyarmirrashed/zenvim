@@ -37,6 +37,7 @@ let
     lze # https://github.com/BirdeeHub/lze
     # >>> Editor
     nvim-lint # https://github.com/mfussenegger/nvim-lint
+    nvim-lspconfig # https://github.com/neovim/nvim-lspconfig
     trouble-nvim # https://github.com/folke/trouble.nvim
     # >>> Git integration
     gitsigns-nvim # https://github.com/lewis6991/gitsigns.nvim
@@ -68,8 +69,9 @@ let
 
   extraPackages = with pkgs; [
     # >>> Language servers
+    gopls
     lua-language-server
-    nil
+    nixd
     # >>> Linters
     hadolint
     # >>> Dependencies
