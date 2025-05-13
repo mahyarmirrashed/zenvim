@@ -48,16 +48,29 @@ vim.opt.smartindent = true -- enable smart indentation
 vim.opt.breakindent = true -- enable break indentation for wrapped lines
 
 -- Diagnostics
+local icons = {
+  [vim.diagnostic.severity.ERROR] = "✘",
+  [vim.diagnostic.severity.WARN] = "⁉",
+  [vim.diagnostic.severity.INFO] = "ℹ",
+  [vim.diagnostic.severity.HINT] = "➤",
+}
+local function format_diagnostic(diagnostic)
+  local source = diagnostic.source and diagnostic.source:gsub("%.$", "") or "unknown"
+  local code = diagnostic.code or source
+  local icon = icons[diagnostic.severity] or "■"
+
+  return icon .. " " .. code .. ": " .. diagnostic.message
+end
+
 vim.diagnostic.config({
   virtual_text = {
-    prefix = "●",
+    prefix = "",
     source = "if_many", -- Show source (e.g., "hadolint") if multiple sources
-    format = function(diagnostic)
-      return string.format("%s: %s", diagnostic.code or diagnostic.source, diagnostic.message)
-    end,
+    format = format_diagnostic,
   },
-  signs = true, -- Show signs in gutter
+  signs = true, -- signs in gutter
   update_in_insert = false, -- Only update diagnostics in Normal mode
+  underline = true, -- Underline errors as well
   severity_sort = true, -- Sort by severity
 })
 
