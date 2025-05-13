@@ -36,6 +36,7 @@ let
     nvim-treesitter.withAllGrammars
     lze # https://github.com/BirdeeHub/lze
     # >>> Editor
+    conform-nvim # https://github.com/stevearc/conform.nvim
     nvim-lint # https://github.com/mfussenegger/nvim-lint
     nvim-lspconfig # https://github.com/neovim/nvim-lspconfig
     trouble-nvim # https://github.com/folke/trouble.nvim
@@ -74,6 +75,13 @@ let
     nixd
     # >>> Linters
     hadolint
+    # >>> Formatters
+    gofumpt
+    gotools
+    jq
+    nixfmt-rfc-style
+    stylua
+    yamlfmt
     # >>> Dependencies
     lazygit
   ];
