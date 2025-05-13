@@ -40,6 +40,7 @@ let
     lazygit-nvim # https://github.com/kdheepak/lazygit.nvim
     # >>> Telescope and extensions
     telescope-nvim # https://github.com/nvim-telescope/telescope.nvim
+    todo-comments-nvim # https://github.com/folke/todo-comments.nvim
     # >>> UI
     alpha-nvim # https://github.com/goolord/alpha-nvim
     famous-quotes-nvim # https://github.com/mahyarmirrashed/famous-quotes-nvim
