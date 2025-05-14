@@ -21,6 +21,7 @@ require("lze").load({
         go = { "gofumpt", "goimports" },
         json = { "jq" },
         lua = { "stylua" },
+        markdown = { "prettierd" },
         nix = { "nixfmt-rfc-style" },
         yaml = { "yamlfmt" },
       },

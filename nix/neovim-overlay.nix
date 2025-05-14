@@ -83,6 +83,7 @@ let
     gotools
     jq
     nixfmt-rfc-style
+    prettierd
     stylua
     yamlfmt
     # >>> Dependencies
