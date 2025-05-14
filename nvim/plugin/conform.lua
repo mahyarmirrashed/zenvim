@@ -22,7 +22,7 @@ require("lze").load({
         json = { "jq" },
         lua = { "stylua" },
         markdown = { "prettierd" },
-        nix = { "nixfmt-rfc-style" },
+        nix = { "nixfmt" },
         yaml = { "yamlfmt" },
       },
       format_on_save = {
