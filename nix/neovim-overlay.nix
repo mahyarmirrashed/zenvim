@@ -76,6 +76,7 @@ let
     gopls
     lua-language-server
     nixd
+    svelte-language-server
     # >>> Linters
     hadolint
     # >>> Formatters
