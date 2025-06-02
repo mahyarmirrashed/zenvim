@@ -42,6 +42,7 @@ let
     conform-nvim # https://github.com/stevearc/conform.nvim
     nvim-lint # https://github.com/mfussenegger/nvim-lint
     nvim-lspconfig # https://github.com/neovim/nvim-lspconfig
+    nvim-ts-autotag # https://github.com/windwp/nvim-ts-autotag
     trouble-nvim # https://github.com/folke/trouble.nvim
     # >>> Git integration
     gitsigns-nvim # https://github.com/lewis6991/gitsigns.nvim
