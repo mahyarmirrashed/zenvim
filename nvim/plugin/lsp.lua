@@ -44,4 +44,18 @@ require("lze").load({
       filetypes = { "go", "gomod", "gowork", "gotmpl" },
     },
   },
+  {
+    "svelte",
+    lsp = {
+      filetypes = { "svelte" },
+      settings = {
+        svelte = {
+          plugin = {
+            svelte = { format = { enable = true } },
+            typescript = { enable = true },
+          },
+        },
+      },
+    },
+  },
 })
