@@ -19,10 +19,12 @@ require("lze").load({
     require("conform").setup({
       formatters_by_ft = {
         go = { "gofumpt", "goimports" },
+        javascript = { "prettierd" },
         json = { "jq" },
         lua = { "stylua" },
         markdown = { "prettierd" },
         nix = { "nixfmt" },
+        typescript = { "prettierd" },
         yaml = { "yamlfmt" },
       },
       format_on_save = {
