@@ -58,4 +58,39 @@ require("lze").load({
       },
     },
   },
+  {
+    "typescript-language-server",
+    lsp = {
+      cmd = { "typescript-language-server", "--stdio" },
+      filetypes = { "typescript", "javascript", "typescriptreact", "javascriptreact" },
+      settings = {
+        typescript = {
+          inlayHints = {
+            includeInlayParameterNameHints = "all",
+            includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+            includeInlayFunctionParameterTypeHints = true,
+            includeInlayVariableTypeHints = true,
+            includeInlayPropertyDeclarationTypeHints = true,
+            includeInlayFunctionLikeReturnTypeHints = true,
+            includeInlayEnumMemberValueHints = true,
+          },
+          format = { enable = true },
+          suggest = { completeFunctionCalls = true },
+        },
+        javascript = {
+          inlayHints = {
+            includeInlayParameterNameHints = "all",
+            includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+            includeInlayFunctionParameterTypeHints = true,
+            includeInlayVariableTypeHints = true,
+            includeInlayPropertyDeclarationTypeHints = true,
+            includeInlayFunctionLikeReturnTypeHints = true,
+            includeInlayEnumMemberValueHints = true,
+          },
+          format = { enable = true },
+          suggest = { completeFunctionCalls = true },
+        },
+      },
+    },
+  },
 })
