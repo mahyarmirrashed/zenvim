@@ -78,6 +78,7 @@ let
     lua-language-server
     nixd
     svelte-language-server
+    typescript-language-server
     # >>> Linters
     hadolint
     # >>> Formatters
