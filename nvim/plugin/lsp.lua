@@ -95,9 +95,6 @@ require("lze").load({
   },
   {
     "yamlls",
-    lsp = require("schema-companion").setup_client({
-      capabilities = { workspace = { didChangeConfiguration = { dynamicRegistration = true } } },
-      settings = { yaml = { schemas = {} } },
-    }),
+    lsp = require("schema-companion").setup_client(),
   },
 })
