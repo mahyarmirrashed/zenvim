@@ -95,8 +95,6 @@ require("lze").load({
   },
   {
     "yamlls",
-    lsp = {
-      filetypes = { "yaml" },
-    },
+    lsp = require("schema-companion").setup_client({}),
   },
 })
