@@ -199,7 +199,24 @@
       "inputs": {
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "schema-companion-nvim": "schema-companion-nvim"
+      }
+    },
+    "schema-companion-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1749122652,
+        "narHash": "sha256-aQxSiBHJl+I/oJWwBEEEn/+AUlK3EHq1PI7AHH7HFOg=",
+        "owner": "cenk1cenk2",
+        "repo": "schema-companion.nvim",
+        "rev": "a39cbf5a31ae7aec71e5aaec5e6d409f22b05099",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cenk1cenk2",
+        "repo": "schema-companion.nvim",
+        "type": "github"
       }
     },
     "systems": {

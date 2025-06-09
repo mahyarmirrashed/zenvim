@@ -12,6 +12,10 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
+    schema-companion-nvim = {
+      url = "github:cenk1cenk2/schema-companion.nvim";
+      flake = false;
+    };
   };
 
   outputs =
