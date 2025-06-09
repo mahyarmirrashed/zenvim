@@ -96,20 +96,7 @@ require("lze").load({
   {
     "yamlls",
     lsp = {
-      filetypes = { "yaml", "yaml.docker-compose", "yaml.kubernetes" },
-      settings = {
-        yaml = {
-          schemas = {
-            kubernetes = "*.yaml",
-            ["http://json.schemastore.org/kustomization"] = "kustomization.{yml,yaml}",
-            ["http://json.schemastore.org/chart"] = "Chart.{yml,yaml}",
-            ["https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"] = {
-              "compose*.{yml,yaml}",
-              "docker-compose*.{yml,yaml}",
-            },
-          },
-        },
-      },
+      filetypes = { "yaml" },
     },
   },
 })
