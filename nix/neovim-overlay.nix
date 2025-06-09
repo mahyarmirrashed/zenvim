@@ -79,6 +79,7 @@ let
     nixd
     svelte-language-server
     typescript-language-server
+    yaml-language-server
     # >>> Linters
     hadolint
     # >>> Formatters
