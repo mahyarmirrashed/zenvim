@@ -66,16 +66,9 @@ let
     mini-surround # https://github.com/echasnovski/mini.surround
     nvim-autopairs # https://github.com/windwp/nvim-autopairs
     which-key-nvim # https://github.com/folke/which-key.nvim
-    pkgs.vimUtils.buildVimPlugin
-    {
-      pname = "schema-companion.nvim";
-      src = fetchFromGitHub {
-        owner = "cenk1cenk2";
-        repo = "schema-companion.nvim";
-        rev = "a39cbf5a31ae7aec71e5aaec5e6d409f22b05099";
-        sha256 = "1s0lqxz1rh4f7jspl45pa9981zwz0i0h9c4ml0zy55y926454339";
-      };
-    } # https://github.com/cenk1cenk2/schema-companion.nvim
+    ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
+      dependencies = [ plenary-nvim ];
+    }) # https://github.com/cenk1cenk2/schema-companion.nvim
     # >>> Plugin dependencies
     plenary-nvim
     nvim-web-devicons

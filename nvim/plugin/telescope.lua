@@ -4,7 +4,7 @@ end
 
 require("lze").load({
   "telescope.nvim",
-  dep_of = "todo-comments.nvim",
+  dep_of = { "todo-comments.nvim", "schema-companion.nvim" },
   keys = {
     -- Essential
     { "<leader><space>", tf("find_files"), desc = "Search Files" },
