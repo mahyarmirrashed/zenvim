@@ -91,6 +91,7 @@ let
     jq
     nixfmt-rfc-style
     prettierd
+    shfmt
     stylua
     yamlfmt
     # >>> Dependencies
