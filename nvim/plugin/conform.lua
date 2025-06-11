@@ -18,6 +18,7 @@ require("lze").load({
   after = function(_)
     require("conform").setup({
       formatters_by_ft = {
+        sh = { "shfmt" },
         go = { "gofumpt", "goimports" },
         javascript = { "prettierd" },
         json = { "jq" },
