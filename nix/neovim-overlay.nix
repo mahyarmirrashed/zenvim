@@ -65,10 +65,10 @@ let
     comment-nvim # https://github.com/numToStr/Comment.nvim
     mini-surround # https://github.com/echasnovski/mini.surround
     nvim-autopairs # https://github.com/windwp/nvim-autopairs
-    which-key-nvim # https://github.com/folke/which-key.nvim
     ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/cenk1cenk2/schema-companion.nvim
+    which-key-nvim # https://github.com/folke/which-key.nvim
     # >>> Plugin dependencies
     plenary-nvim
     nvim-web-devicons
