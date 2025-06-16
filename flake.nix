@@ -16,6 +16,10 @@
       url = "github:cenk1cenk2/schema-companion.nvim";
       flake = false;
     };
+    search-and-replace-nvim = {
+      url = "github:mahyarmirrashed/search-and-replace.nvim";
+      flake = false;
+    };
   };
 
   outputs =
