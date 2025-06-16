@@ -68,6 +68,9 @@ let
     ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/cenk1cenk2/schema-companion.nvim
+    ((mkNvimPlugin inputs.search-and-replace-nvim "search-and-replace.nvim").overrideAttrs {
+      dependencies = [ plenary-nvim ];
+    }) # https://github.com/mahyarmirrashed/search-and-replace.nvim
     which-key-nvim # https://github.com/folke/which-key.nvim
     # >>> Plugin dependencies
     plenary-nvim
@@ -95,9 +98,12 @@ let
     stylua
     yamlfmt
     # >>> Dependencies
+    delta
     fd
+    fzf
     lazygit
     ripgrep
+    sad
   ];
 in
 {
