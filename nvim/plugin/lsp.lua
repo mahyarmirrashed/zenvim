@@ -33,15 +33,28 @@ require("lze").load({
     },
   },
   {
-    "nixd",
-    lsp = {
-      filetypes = { "nix" },
-    },
-  },
-  {
     "gopls",
     lsp = {
       filetypes = { "go", "gomod", "gowork", "gotmpl" },
+    },
+  },
+  {
+    "helm_ls",
+    lsp = {
+      filetypes = { "helm" },
+      settings = {
+        ["helm-ls"] = {
+          yamlls = {
+            path = "yaml-language-server",
+          },
+        },
+      },
+    },
+  },
+  {
+    "nixd",
+    lsp = {
+      filetypes = { "nix" },
     },
   },
   {

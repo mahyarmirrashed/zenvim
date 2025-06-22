@@ -65,6 +65,7 @@ let
     comment-nvim # https://github.com/numToStr/Comment.nvim
     mini-surround # https://github.com/echasnovski/mini.surround
     nvim-autopairs # https://github.com/windwp/nvim-autopairs
+    (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
     ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/cenk1cenk2/schema-companion.nvim
@@ -81,6 +82,7 @@ let
   extraPackages = with pkgs; [
     # >>> Language servers
     gopls
+    helm-ls
     lua-language-server
     nixd
     svelte-language-server
