@@ -119,6 +119,22 @@
         "type": "github"
       }
     },
+    "helm-ls-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1749325884,
+        "narHash": "sha256-2pf8YrLJgnX92JZrlxQPCq6Rl/Xh5TOyX0Sf4vC4FUA=",
+        "owner": "qvalentin",
+        "repo": "helm-ls.nvim",
+        "rev": "2bf45466c26a24e05b5266f82a3abead13e32c16",
+        "type": "github"
+      },
+      "original": {
+        "owner": "qvalentin",
+        "repo": "helm-ls.nvim",
+        "type": "github"
+      }
+    },
     "luvit-meta": {
       "flake": false,
       "locked": {
@@ -199,6 +215,7 @@
       "inputs": {
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
+        "helm-ls-nvim": "helm-ls-nvim",
         "nixpkgs": "nixpkgs_2",
         "schema-companion-nvim": "schema-companion-nvim",
         "search-and-replace-nvim": "search-and-replace-nvim"
