@@ -86,6 +86,7 @@ let
     lua-language-server
     nixd
     svelte-language-server
+    tinymist
     typescript-language-server
     yaml-language-server
     # >>> Linters
