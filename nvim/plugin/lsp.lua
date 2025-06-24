@@ -72,6 +72,17 @@ require("lze").load({
     },
   },
   {
+    "tinymist",
+    lsp = {
+      filetypes = { "typst" },
+      settings = {
+        formatterMode = "typstyle",
+        exportPdf = "onType",
+        semanticTokens = "enable",
+      },
+    },
+  },
+  {
     "typescript-language-server",
     lsp = {
       cmd = { "typescript-language-server", "--stdio" },
