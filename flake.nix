@@ -16,6 +16,10 @@
       url = "github:Jay-Madden/auto-fix-return.nvim";
       flake = false;
     };
+    checkmate-nvim = {
+      url = "github:bngarren/checkmate.nvim";
+      flake = false;
+    };
     helm-ls-nvim = {
       url = "github:qvalentin/helm-ls.nvim";
       flake = false;

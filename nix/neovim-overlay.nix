@@ -62,6 +62,7 @@ let
     # >>> bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     (mkNvimPlugin inputs.auto-fix-return-nvim "auto-fix-return-nvim") # https://github.com/Jay-Madden/auto-fix-return.nvim
+    (mkNvimPlugin inputs.checkmate-nvim "checkmate-nvim") # https://github.com/bngarren/checkmate.nvim
     (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
     (mkNvimPlugin inputs.lazydocker-nvim "lazydocker-nvim") # https://github.com/crnvl96/lazydocker.nvim
     ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
