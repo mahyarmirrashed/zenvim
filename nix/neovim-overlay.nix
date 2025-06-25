@@ -56,6 +56,7 @@ let
     fidget-nvim # https://github.com/j-hui/fidget.nvim
     gruvbox-nvim # https://github.com/ellisonleao/gruvbox.nvim
     lualine-nvim # https://github.com/nvim-lualine/lualine.nvim
+    no-neck-pain-nvim # https://github.com/shortcuts/no-neck-pain.nvim
     oil-nvim # https://github.com/stevearc/oil.nvim
     render-markdown-nvim # https://github.com/MeanderingProgrammer/render-markdown.nvim
     # >>> bleeding-edge plugins from flake inputs
