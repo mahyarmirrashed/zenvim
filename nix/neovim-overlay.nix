@@ -57,14 +57,8 @@ let
     gruvbox-nvim # https://github.com/ellisonleao/gruvbox.nvim
     lualine-nvim # https://github.com/nvim-lualine/lualine.nvim/
     oil-nvim # https://github.com/stevearc/oil.nvim
-    # bleeding-edge plugins from flake inputs
+    # >>> bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
-    # >>> Miscellaneous
-    better-escape-nvim # https://github.com/max397574/better-escape.nvim
-    cloak-nvim # https://github.com/laytan/cloak.nvim
-    comment-nvim # https://github.com/numToStr/Comment.nvim
-    mini-surround # https://github.com/echasnovski/mini.surround
-    nvim-autopairs # https://github.com/windwp/nvim-autopairs
     (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
     ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
@@ -72,6 +66,12 @@ let
     ((mkNvimPlugin inputs.search-and-replace-nvim "search-and-replace.nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/mahyarmirrashed/search-and-replace.nvim
+    # >>> Miscellaneous
+    better-escape-nvim # https://github.com/max397574/better-escape.nvim
+    cloak-nvim # https://github.com/laytan/cloak.nvim
+    comment-nvim # https://github.com/numToStr/Comment.nvim
+    mini-surround # https://github.com/echasnovski/mini.surround
+    nvim-autopairs # https://github.com/windwp/nvim-autopairs
     which-key-nvim # https://github.com/folke/which-key.nvim
     # >>> Plugin dependencies
     plenary-nvim
