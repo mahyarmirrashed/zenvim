@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "auto-fix-return-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1750860283,
+        "narHash": "sha256-/ZSS+qW+nTNOfBqqrWxgBkml2mHQZzZ+uHL7t3eUkZA=",
+        "owner": "Jay-Madden",
+        "repo": "auto-fix-return.nvim",
+        "rev": "015b28b7d29b91b8a5e9ddaa461040b3d760d2ab",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Jay-Madden",
+        "repo": "auto-fix-return.nvim",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -229,6 +245,7 @@
     },
     "root": {
       "inputs": {
+        "auto-fix-return-nvim": "auto-fix-return-nvim",
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
         "helm-ls-nvim": "helm-ls-nvim",
