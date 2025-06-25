@@ -12,6 +12,10 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
+    auto-fix-return-nvim = {
+      url = "github:Jay-Madden/auto-fix-return.nvim";
+      flake = false;
+    };
     helm-ls-nvim = {
       url = "github:qvalentin/helm-ls.nvim";
       flake = false;
