@@ -154,11 +154,11 @@
     "lazydocker-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1749088423,
-        "narHash": "sha256-OVQMFe4nHl2gBb9AeqdZppa8csfzlc+fvBdT4rcfnW8=",
+        "lastModified": 1750882653,
+        "narHash": "sha256-+B+8M7pT/bBMsA1pcAPeS8DSXHoAdtRq9UorMVmHzAA=",
         "owner": "crnvl96",
         "repo": "lazydocker.nvim",
-        "rev": "d5878defd757a193fbd73f12ec54faee9a6b19e1",
+        "rev": "495fbbbdb22d48f2649a4b58c432f58c7981e3e2",
         "type": "github"
       },
       "original": {
