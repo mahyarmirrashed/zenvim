@@ -135,6 +135,22 @@
         "type": "github"
       }
     },
+    "lazydocker-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1749088423,
+        "narHash": "sha256-OVQMFe4nHl2gBb9AeqdZppa8csfzlc+fvBdT4rcfnW8=",
+        "owner": "crnvl96",
+        "repo": "lazydocker.nvim",
+        "rev": "d5878defd757a193fbd73f12ec54faee9a6b19e1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "crnvl96",
+        "repo": "lazydocker.nvim",
+        "type": "github"
+      }
+    },
     "luvit-meta": {
       "flake": false,
       "locked": {
@@ -216,6 +232,7 @@
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
         "helm-ls-nvim": "helm-ls-nvim",
+        "lazydocker-nvim": "lazydocker-nvim",
         "nixpkgs": "nixpkgs_2",
         "schema-companion-nvim": "schema-companion-nvim",
         "search-and-replace-nvim": "search-and-replace-nvim"
