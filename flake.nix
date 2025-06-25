@@ -16,6 +16,10 @@
       url = "github:qvalentin/helm-ls.nvim";
       flake = false;
     };
+    lazydocker-nvim = {
+      url = "github:crnvl96/lazydocker.nvim";
+      flake = false;
+    };
     schema-companion-nvim = {
       url = "github:cenk1cenk2/schema-companion.nvim";
       flake = false;
