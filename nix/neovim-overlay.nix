@@ -57,6 +57,7 @@ let
     gruvbox-nvim # https://github.com/ellisonleao/gruvbox.nvim
     lualine-nvim # https://github.com/nvim-lualine/lualine.nvim/
     oil-nvim # https://github.com/stevearc/oil.nvim
+    render-markdown-nvim # https://github.com/MeanderingProgrammer/render-markdown.nvim
     # >>> bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
