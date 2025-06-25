@@ -1,7 +1,7 @@
 require("lze").load({
   {
     "nvim-treesitter",
-    dep_of = { "treesj", "nvim-ts-autotag" },
+    dep_of = { "treesj", "nvim-ts-autotag", "render-markdown" },
     event = "DeferredUIEnter",
     after = function(_)
       require("nvim-treesitter.configs").setup({
