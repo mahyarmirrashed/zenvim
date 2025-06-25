@@ -16,6 +16,22 @@
         "type": "github"
       }
     },
+    "checkmate-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1750987261,
+        "narHash": "sha256-jihmkQhM6YN1WiEDYyUWEvU4weRttCGTyABlTmSuTz8=",
+        "owner": "bngarren",
+        "repo": "checkmate.nvim",
+        "rev": "1b7aa6a9db3580cf4bc22be6654e340b05cbc787",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bngarren",
+        "repo": "checkmate.nvim",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -246,6 +262,7 @@
     "root": {
       "inputs": {
         "auto-fix-return-nvim": "auto-fix-return-nvim",
+        "checkmate-nvim": "checkmate-nvim",
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
         "helm-ls-nvim": "helm-ls-nvim",
