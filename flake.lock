@@ -183,6 +183,22 @@
         "type": "github"
       }
     },
+    "lazyjj-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1732823317,
+        "narHash": "sha256-h97fVlawU0oLkDuuvmUbrTFzsc92DQELvynmIRjGjjk=",
+        "owner": "swaits",
+        "repo": "lazyjj.nvim",
+        "rev": "bba66a1351ff1f1bd078c8a1b00b8d12b3ed0017",
+        "type": "github"
+      },
+      "original": {
+        "owner": "swaits",
+        "repo": "lazyjj.nvim",
+        "type": "github"
+      }
+    },
     "luvit-meta": {
       "flake": false,
       "locked": {
@@ -267,6 +283,7 @@
         "gen-luarc": "gen-luarc",
         "helm-ls-nvim": "helm-ls-nvim",
         "lazydocker-nvim": "lazydocker-nvim",
+        "lazyjj-nvim": "lazyjj-nvim",
         "nixpkgs": "nixpkgs_2",
         "schema-companion-nvim": "schema-companion-nvim",
         "search-and-replace-nvim": "search-and-replace-nvim"

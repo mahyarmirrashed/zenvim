@@ -65,6 +65,9 @@ let
     (mkNvimPlugin inputs.checkmate-nvim "checkmate-nvim") # https://github.com/bngarren/checkmate.nvim
     (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
     (mkNvimPlugin inputs.lazydocker-nvim "lazydocker-nvim") # https://github.com/crnvl96/lazydocker.nvim
+    ((mkNvimPlugin inputs.lazyjj-nvim "lazyjj-nvim").overrideAttrs {
+      dependencies = [ plenary-nvim ];
+    }) # https://github.com/swaits/lazyjj.nvim
     ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/cenk1cenk2/schema-companion.nvim
@@ -115,6 +118,7 @@ let
     fzf
     lazydocker
     lazygit
+    lazyjj
     ripgrep
     sad
   ];
