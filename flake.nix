@@ -28,6 +28,10 @@
       url = "github:crnvl96/lazydocker.nvim";
       flake = false;
     };
+    lazyjj-nvim = {
+      url = "github:swaits/lazyjj.nvim";
+      flake = false;
+    };
     schema-companion-nvim = {
       url = "github:cenk1cenk2/schema-companion.nvim";
       flake = false;
