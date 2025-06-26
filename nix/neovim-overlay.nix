@@ -40,6 +40,7 @@ let
     auto-session # https://github.com/rmagatti/auto-session
     blink-cmp # https://github.com/Saghen/blink.cmp
     conform-nvim # https://github.com/stevearc/conform.nvim
+    nvim-early-retirement # https://github.com/chrisgrieser/nvim-early-retirement
     nvim-lint # https://github.com/mfussenegger/nvim-lint
     nvim-lspconfig # https://github.com/neovim/nvim-lspconfig
     nvim-ts-autotag # https://github.com/windwp/nvim-ts-autotag
