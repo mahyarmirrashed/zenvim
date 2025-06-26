@@ -93,6 +93,7 @@ let
     svelte-language-server
     tinymist
     typescript-language-server
+    rust-analyzer
     yaml-language-server
     # >>> Linters
     hadolint
@@ -106,6 +107,7 @@ let
     stylua
     yamlfmt
     # >>> Dependencies
+    cargo
     delta
     fd
     fzf

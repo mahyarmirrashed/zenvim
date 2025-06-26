@@ -124,6 +124,17 @@ require("lze").load({
     },
   },
   {
+    "rust_analyzer",
+    lsp = {
+      filetypes = { "rust" },
+      settings = {
+        ["rust-analyzer"] = {
+          cargo = { allFeatures = true },
+        },
+      },
+    },
+  },
+  {
     "yamlls",
     lsp = require("schema-companion").setup_client(),
   },
