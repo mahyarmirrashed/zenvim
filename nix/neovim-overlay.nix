@@ -103,6 +103,7 @@ let
     jq
     nixfmt-rfc-style
     prettierd
+    rustfmt
     shfmt
     stylua
     yamlfmt

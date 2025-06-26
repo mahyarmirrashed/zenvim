@@ -11,6 +11,7 @@ require("lze").load({
         lua = { "stylua" },
         markdown = { "prettierd" },
         nix = { "nixfmt" },
+        rust = { "rustfmt" },
         typescript = { "prettierd" },
         yaml = { "yamlfmt" },
       },
