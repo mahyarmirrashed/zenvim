@@ -20,6 +20,10 @@
       url = "github:bngarren/checkmate.nvim";
       flake = false;
     };
+    freeze-nvim = {
+      url = "github:charm-and-friends/freeze.nvim";
+      flake = false;
+    };
     helm-ls-nvim = {
       url = "github:qvalentin/helm-ls.nvim";
       flake = false;
