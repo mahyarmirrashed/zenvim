@@ -84,6 +84,22 @@
         "type": "github"
       }
     },
+    "freeze-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1742908236,
+        "narHash": "sha256-VdFmSRBP7Up0j5+rp7ZkfTdQmduJjsl6EZ9gf27vgZg=",
+        "owner": "charm-and-friends",
+        "repo": "freeze.nvim",
+        "rev": "590fdb0d724485f578e4fee0e3ae2b32040dfb1a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "charm-and-friends",
+        "repo": "freeze.nvim",
+        "type": "github"
+      }
+    },
     "gen-luarc": {
       "inputs": {
         "flake-parts": "flake-parts",
@@ -280,6 +296,7 @@
         "auto-fix-return-nvim": "auto-fix-return-nvim",
         "checkmate-nvim": "checkmate-nvim",
         "flake-utils": "flake-utils",
+        "freeze-nvim": "freeze-nvim",
         "gen-luarc": "gen-luarc",
         "helm-ls-nvim": "helm-ls-nvim",
         "lazydocker-nvim": "lazydocker-nvim",
