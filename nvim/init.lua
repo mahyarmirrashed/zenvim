@@ -9,6 +9,7 @@ vim.fn.mkdir(vim.fn.stdpath("cache"), "p")
 
 -- Source configuration modules
 require("user.autocmds")
+require("user.ft")
 require("user.keymaps")
 require("user.options")
 require("user.overrides")
