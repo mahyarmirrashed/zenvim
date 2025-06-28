@@ -4,14 +4,16 @@ require("lze").load({
   after = function(_)
     require("conform").setup({
       formatters_by_ft = {
-        sh = { "shfmt" },
+        css = { "prettierd" },
         go = { "gofumpt", "goimports" },
+        html = { "prettierd" },
         javascript = { "prettierd" },
         json = { "jq" },
         lua = { "stylua" },
         markdown = { "prettierd" },
         nix = { "nixfmt" },
         rust = { "rustfmt" },
+        sh = { "shfmt" },
         typescript = { "prettierd" },
         yaml = { "yamlfmt" },
       },
