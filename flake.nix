@@ -44,6 +44,10 @@
       url = "github:mahyarmirrashed/search-and-replace.nvim";
       flake = false;
     };
+    spellwarn-nvim = {
+      url = "github:ravibrock/spellwarn.nvim";
+      flake = false;
+    };
   };
 
   outputs =

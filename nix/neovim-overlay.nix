@@ -67,6 +67,7 @@ let
     (mkNvimPlugin inputs.freeze-nvim "freeze-nvim") # https://github.com/charm-and-friends/freeze.nvim
     (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
     (mkNvimPlugin inputs.lazydocker-nvim "lazydocker-nvim") # https://github.com/crnvl96/lazydocker.nvim
+    (mkNvimPlugin inputs.spellwarn-nvim "spellwarn-nvim") # https://github.com/ravibrock/spellwarn.nvim
     ((mkNvimPlugin inputs.lazyjj-nvim "lazyjj-nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/swaits/lazyjj.nvim

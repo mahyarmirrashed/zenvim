@@ -303,7 +303,8 @@
         "lazyjj-nvim": "lazyjj-nvim",
         "nixpkgs": "nixpkgs_2",
         "schema-companion-nvim": "schema-companion-nvim",
-        "search-and-replace-nvim": "search-and-replace-nvim"
+        "search-and-replace-nvim": "search-and-replace-nvim",
+        "spellwarn-nvim": "spellwarn-nvim"
       }
     },
     "schema-companion-nvim": {
@@ -335,6 +336,22 @@
       "original": {
         "owner": "mahyarmirrashed",
         "repo": "search-and-replace.nvim",
+        "type": "github"
+      }
+    },
+    "spellwarn-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1730666342,
+        "narHash": "sha256-FYjWjL/i3hemDVP+xvJd7XTkQW3EbhMXQj0rlncxP+M=",
+        "owner": "ravibrock",
+        "repo": "spellwarn.nvim",
+        "rev": "12734b47b008d912b4925c0bc2c1248eb534409d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ravibrock",
+        "repo": "spellwarn.nvim",
         "type": "github"
       }
     },
