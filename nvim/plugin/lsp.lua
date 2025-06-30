@@ -52,12 +52,6 @@ require("lze").load({
     },
   },
   {
-    "just",
-    lsp = {
-      filetypes = { "just" },
-    },
-  },
-  {
     "nixd",
     lsp = {
       filetypes = { "nix" },

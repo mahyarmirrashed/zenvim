@@ -93,7 +93,6 @@ let
     # >>> Language servers
     gopls
     helm-ls
-    just-lsp
     lua-language-server
     nixd
     svelte-language-server
