@@ -66,6 +66,9 @@ let
     (mkNvimPlugin inputs.checkmate-nvim "checkmate-nvim") # https://github.com/bngarren/checkmate.nvim
     (mkNvimPlugin inputs.freeze-nvim "freeze-nvim") # https://github.com/charm-and-friends/freeze.nvim
     (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
+    ((mkNvimPlugin inputs.jdd-nvim "jdd-nvim").overrideAttrs {
+      dependencies = [ plenary-nvim ];
+    }) # https://github.com/mahyarmirrashed/jdd.nvim
     (mkNvimPlugin inputs.lazydocker-nvim "lazydocker-nvim") # https://github.com/crnvl96/lazydocker.nvim
     ((mkNvimPlugin inputs.lazyjj-nvim "lazyjj-nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
