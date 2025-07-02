@@ -183,6 +183,22 @@
         "type": "github"
       }
     },
+    "jdd-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1751563898,
+        "narHash": "sha256-LdY9NYg1PPMFFW/APmrPhankf/WJcCqe1Qiv+VrBmFY=",
+        "owner": "mahyarmirrashed",
+        "repo": "jdd.nvim",
+        "rev": "e0bb11a6ab67f29bc94f28e7507ffd8d7f64f454",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mahyarmirrashed",
+        "repo": "jdd.nvim",
+        "type": "github"
+      }
+    },
     "lazydocker-nvim": {
       "flake": false,
       "locked": {
@@ -299,6 +315,7 @@
         "freeze-nvim": "freeze-nvim",
         "gen-luarc": "gen-luarc",
         "helm-ls-nvim": "helm-ls-nvim",
+        "jdd-nvim": "jdd-nvim",
         "lazydocker-nvim": "lazydocker-nvim",
         "lazyjj-nvim": "lazyjj-nvim",
         "nixpkgs": "nixpkgs_2",

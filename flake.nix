@@ -28,6 +28,10 @@
       url = "github:qvalentin/helm-ls.nvim";
       flake = false;
     };
+    jdd-nvim = {
+      url = "github:mahyarmirrashed/jdd.nvim";
+      flake = false;
+    };
     lazydocker-nvim = {
       url = "github:crnvl96/lazydocker.nvim";
       flake = false;
