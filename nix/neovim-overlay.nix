@@ -41,6 +41,7 @@ let
     blink-cmp # https://github.com/Saghen/blink.cmp
     conform-nvim # https://github.com/stevearc/conform.nvim
     nvim-early-retirement # https://github.com/chrisgrieser/nvim-early-retirement
+    nvim-autopairs # https://github.com/windwp/nvim-autopairs
     nvim-lint # https://github.com/mfussenegger/nvim-lint
     nvim-lspconfig # https://github.com/neovim/nvim-lspconfig
     nvim-ts-autotag # https://github.com/windwp/nvim-ts-autotag
@@ -48,6 +49,7 @@ let
     # >>> Git integration
     gitsigns-nvim # https://github.com/lewis6991/gitsigns.nvim
     lazygit-nvim # https://github.com/kdheepak/lazygit.nvim
+    lazyjj-nvim # https://github.com/swaits/lazyjj.nvim
     # >>> Telescope and extensions
     telescope-nvim # https://github.com/nvim-telescope/telescope.nvim
     todo-comments-nvim # https://github.com/folke/todo-comments.nvim
@@ -60,31 +62,23 @@ let
     no-neck-pain-nvim # https://github.com/shortcuts/no-neck-pain.nvim
     oil-nvim # https://github.com/stevearc/oil.nvim
     render-markdown-nvim # https://github.com/MeanderingProgrammer/render-markdown.nvim
+    search-and-replace-nvim # https://github.com/mahyarmirrashed/search-and-replace.nvim
     # >>> bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
-    (mkNvimPlugin inputs.auto-fix-return-nvim "auto-fix-return-nvim") # https://github.com/Jay-Madden/auto-fix-return.nvim
     (mkNvimPlugin inputs.checkmate-nvim "checkmate-nvim") # https://github.com/bngarren/checkmate.nvim
-    (mkNvimPlugin inputs.freeze-nvim "freeze-nvim") # https://github.com/charm-and-friends/freeze.nvim
-    (mkNvimPlugin inputs.helm-ls-nvim "helm-ls-nvim") # https://github.com/qvalentin/helm-ls.nvim
     ((mkNvimPlugin inputs.jdd-nvim "jdd-nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/mahyarmirrashed/jdd.nvim
-    (mkNvimPlugin inputs.lazydocker-nvim "lazydocker-nvim") # https://github.com/crnvl96/lazydocker.nvim
-    ((mkNvimPlugin inputs.lazyjj-nvim "lazyjj-nvim").overrideAttrs {
-      dependencies = [ plenary-nvim ];
-    }) # https://github.com/swaits/lazyjj.nvim
-    ((mkNvimPlugin inputs.schema-companion-nvim "schema-companion.nvim").overrideAttrs {
-      dependencies = [ plenary-nvim ];
-    }) # https://github.com/cenk1cenk2/schema-companion.nvim
-    ((mkNvimPlugin inputs.search-and-replace-nvim "search-and-replace.nvim").overrideAttrs {
-      dependencies = [ plenary-nvim ];
-    }) # https://github.com/mahyarmirrashed/search-and-replace.nvim
     # >>> Miscellaneous
+    auto-fix-return-nvim # https://github.com/Jay-Madden/auto-fix-return.nvim
     better-escape-nvim # https://github.com/max397574/better-escape.nvim
     cloak-nvim # https://github.com/laytan/cloak.nvim
     comment-nvim # https://github.com/numToStr/Comment.nvim
+    freeze-nvim # https://github.com/charm-and-friends/freeze.nvim
+    helm-ls-nvim # https://github.com/qvalentin/helm-ls.nvim
+    lazydocker-nvim # https://github.com/crnvl96/lazydocker.nvim
     mini-surround # https://github.com/echasnovski/mini.surround
-    nvim-autopairs # https://github.com/windwp/nvim-autopairs
+    schema-companion-nvim # https://github.com/cenk1cenk2/schema-companion.nvim
     which-key-nvim # https://github.com/folke/which-key.nvim
     # >>> Plugin dependencies
     plenary-nvim
