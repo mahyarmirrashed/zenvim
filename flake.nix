@@ -12,40 +12,12 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
-    auto-fix-return-nvim = {
-      url = "github:Jay-Madden/auto-fix-return.nvim";
-      flake = false;
-    };
     checkmate-nvim = {
       url = "github:bngarren/checkmate.nvim";
       flake = false;
     };
-    freeze-nvim = {
-      url = "github:charm-and-friends/freeze.nvim";
-      flake = false;
-    };
-    helm-ls-nvim = {
-      url = "github:qvalentin/helm-ls.nvim";
-      flake = false;
-    };
     jdd-nvim = {
       url = "github:mahyarmirrashed/jdd.nvim";
-      flake = false;
-    };
-    lazydocker-nvim = {
-      url = "github:crnvl96/lazydocker.nvim";
-      flake = false;
-    };
-    lazyjj-nvim = {
-      url = "github:swaits/lazyjj.nvim";
-      flake = false;
-    };
-    schema-companion-nvim = {
-      url = "github:cenk1cenk2/schema-companion.nvim";
-      flake = false;
-    };
-    search-and-replace-nvim = {
-      url = "github:mahyarmirrashed/search-and-replace.nvim";
       flake = false;
     };
   };
