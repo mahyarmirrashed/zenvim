@@ -13,7 +13,7 @@
     #   flake = false;
     # };
     checkmate-nvim = {
-      url = "github:bngarren/checkmate.nvim";
+      url = "github:bngarren/checkmate.nvim?ref=develop";
       flake = false;
     };
     jdd-nvim = {
