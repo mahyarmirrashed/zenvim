@@ -65,7 +65,9 @@ let
     search-and-replace-nvim # https://github.com/mahyarmirrashed/search-and-replace.nvim
     # >>> bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
-    (mkNvimPlugin inputs.checkmate-nvim "checkmate-nvim") # https://github.com/bngarren/checkmate.nvim
+    ((mkNvimPlugin inputs.checkmate-nvim "checkmate-nvim").overrideAttrs {
+      dependencies = [ luasnip ];
+    }) # https://github.com/bngarren/checkmate.nvim
     ((mkNvimPlugin inputs.jdd-nvim "jdd-nvim").overrideAttrs {
       dependencies = [ plenary-nvim ];
     }) # https://github.com/mahyarmirrashed/jdd.nvim

@@ -3,15 +3,16 @@
     "checkmate-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1750987261,
-        "narHash": "sha256-jihmkQhM6YN1WiEDYyUWEvU4weRttCGTyABlTmSuTz8=",
+        "lastModified": 1752344877,
+        "narHash": "sha256-Njow9LXex8uz1cXvDgEHmIS4ujMMYMpPkKragTzv8m0=",
         "owner": "bngarren",
         "repo": "checkmate.nvim",
-        "rev": "1b7aa6a9db3580cf4bc22be6654e340b05cbc787",
+        "rev": "831920d01c5bdb06fe104877acdcddfc0ee73681",
         "type": "github"
       },
       "original": {
         "owner": "bngarren",
+        "ref": "develop",
         "repo": "checkmate.nvim",
         "type": "github"
       }
