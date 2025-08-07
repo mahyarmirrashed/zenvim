@@ -1,22 +1,5 @@
 {
   "nodes": {
-    "checkmate-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1752344877,
-        "narHash": "sha256-Njow9LXex8uz1cXvDgEHmIS4ujMMYMpPkKragTzv8m0=",
-        "owner": "bngarren",
-        "repo": "checkmate.nvim",
-        "rev": "831920d01c5bdb06fe104877acdcddfc0ee73681",
-        "type": "github"
-      },
-      "original": {
-        "owner": "bngarren",
-        "ref": "develop",
-        "repo": "checkmate.nvim",
-        "type": "github"
-      }
-    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -136,22 +119,6 @@
         "type": "github"
       }
     },
-    "jdd-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1751600636,
-        "narHash": "sha256-8sGu6i1fJNASWYtzqB+OPe3sny2jNmVCI0WPwCl6SnU=",
-        "owner": "mahyarmirrashed",
-        "repo": "jdd.nvim",
-        "rev": "468bb25402cbdd87b904f5ee4324a659c60c1a79",
-        "type": "github"
-      },
-      "original": {
-        "owner": "mahyarmirrashed",
-        "repo": "jdd.nvim",
-        "type": "github"
-      }
-    },
     "luvit-meta": {
       "flake": false,
       "locked": {
@@ -214,11 +181,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1751271578,
-        "narHash": "sha256-P/SQmKDu06x8yv7i0s8bvnnuJYkxVGBWLWHaU+tt4YY=",
+        "lastModified": 1754214453,
+        "narHash": "sha256-Q/I2xJn/j1wpkGhWkQnm20nShYnG7TI99foDBpXm1SY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3016b4b15d13f3089db8a41ef937b13a9e33a8df",
+        "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
         "type": "github"
       },
       "original": {
@@ -230,10 +197,8 @@
     },
     "root": {
       "inputs": {
-        "checkmate-nvim": "checkmate-nvim",
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
-        "jdd-nvim": "jdd-nvim",
         "nixpkgs": "nixpkgs_2"
       }
     },

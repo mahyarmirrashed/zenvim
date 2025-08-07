@@ -12,14 +12,6 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
-    checkmate-nvim = {
-      url = "github:bngarren/checkmate.nvim?ref=develop";
-      flake = false;
-    };
-    jdd-nvim = {
-      url = "github:mahyarmirrashed/jdd.nvim";
-      flake = false;
-    };
   };
 
   outputs =
