@@ -65,19 +65,15 @@ let
     search-and-replace-nvim # https://github.com/mahyarmirrashed/search-and-replace.nvim
     # >>> bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
-    ((mkNvimPlugin inputs.checkmate-nvim "checkmate-nvim").overrideAttrs {
-      dependencies = [ luasnip ];
-    }) # https://github.com/bngarren/checkmate.nvim
-    ((mkNvimPlugin inputs.jdd-nvim "jdd-nvim").overrideAttrs {
-      dependencies = [ plenary-nvim ];
-    }) # https://github.com/mahyarmirrashed/jdd.nvim
     # >>> Miscellaneous
     auto-fix-return-nvim # https://github.com/Jay-Madden/auto-fix-return.nvim
     better-escape-nvim # https://github.com/max397574/better-escape.nvim
+    checkmate-nvim # https://github.com/bngarren/checkmate.nvim
     cloak-nvim # https://github.com/laytan/cloak.nvim
     comment-nvim # https://github.com/numToStr/Comment.nvim
     freeze-nvim # https://github.com/charm-and-friends/freeze.nvim
     helm-ls-nvim # https://github.com/qvalentin/helm-ls.nvim
+    jdd-nvim # https://github.com/mahyarmirrashed/jdd.nvim
     lazydocker-nvim # https://github.com/crnvl96/lazydocker.nvim
     mini-surround # https://github.com/echasnovski/mini.surround
     schema-companion-nvim # https://github.com/cenk1cenk2/schema-companion.nvim
