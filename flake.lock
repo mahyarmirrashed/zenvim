@@ -195,11 +195,28 @@
         "type": "github"
       }
     },
+    "oklch-color-picker-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1757009636,
+        "narHash": "sha256-9T+1JQhJvuaRNg1ZgyBy1dr9yOX2hVexjPeGlZBTGXY=",
+        "owner": "eero-lehtinen",
+        "repo": "oklch-color-picker.nvim",
+        "rev": "ae318113cd7d0e4988b6b059327c2778911f1187",
+        "type": "github"
+      },
+      "original": {
+        "owner": "eero-lehtinen",
+        "repo": "oklch-color-picker.nvim",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "oklch-color-picker-nvim": "oklch-color-picker-nvim"
       }
     },
     "systems": {
