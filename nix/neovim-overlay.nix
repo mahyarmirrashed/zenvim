@@ -65,6 +65,7 @@ let
     search-and-replace-nvim # https://github.com/mahyarmirrashed/search-and-replace.nvim
     # >>> bleeding-edge plugins from flake inputs
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
+    (mkNvimPlugin inputs.oklch-color-picker-nvim "oklch-color-picker.nvim") # https://github.com/eero-lehtinen/oklch-color-picker.nvim
     # >>> Miscellaneous
     auto-fix-return-nvim # https://github.com/Jay-Madden/auto-fix-return.nvim
     better-escape-nvim # https://github.com/max397574/better-escape.nvim
