@@ -72,6 +72,16 @@ require("lze").load({
     },
   },
   {
+    "tailwindcss",
+    lsp = {
+      settings = {
+        tailwindCSS = {
+          classFunctions = { "clsx" },
+        },
+      },
+    },
+  },
+  {
     "tinymist",
     lsp = {
       filetypes = { "typst" },

@@ -92,6 +92,7 @@ let
     lua-language-server
     nixd
     svelte-language-server
+    tailwindcss-language-server
     tinymist
     typescript-language-server
     rust-analyzer
