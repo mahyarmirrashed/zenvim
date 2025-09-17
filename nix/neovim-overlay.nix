@@ -55,6 +55,7 @@ let
     todo-comments-nvim # https://github.com/folke/todo-comments.nvim
     # >>> UI
     alpha-nvim # https://github.com/goolord/alpha-nvim
+    csvview-nvim # https://github.com/hat0uma/csvview.nvim
     famous-quotes-nvim # https://github.com/mahyarmirrashed/famous-quotes-nvim
     fidget-nvim # https://github.com/j-hui/fidget.nvim
     gruvbox-nvim # https://github.com/ellisonleao/gruvbox.nvim
