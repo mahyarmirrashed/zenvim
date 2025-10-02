@@ -14,6 +14,7 @@ require("lze").load({
         nix = { "nixfmt" },
         rust = { "rustfmt" },
         sh = { "shfmt" },
+        toml = { "taplo" },
         typescript = { "prettierd" },
         yaml = { "yamlfmt" },
       },

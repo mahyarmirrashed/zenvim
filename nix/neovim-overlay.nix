@@ -109,6 +109,7 @@ let
     rustfmt
     shfmt
     stylua
+    taplo
     yamlfmt
     # >>> Dependencies
     cargo
