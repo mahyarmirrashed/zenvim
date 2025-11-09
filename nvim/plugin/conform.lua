@@ -16,6 +16,7 @@ require("lze").load({
         sh = { "shfmt" },
         toml = { "taplo" },
         typescript = { "prettierd" },
+        typst = { "typstyle" },
         yaml = { "yamlfmt" },
       },
       format_on_save = {

@@ -110,6 +110,7 @@ let
     shfmt
     stylua
     taplo
+    typstyle
     yamlfmt
     # >>> Dependencies
     cargo
