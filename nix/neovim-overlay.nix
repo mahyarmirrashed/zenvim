@@ -88,6 +88,7 @@ let
 
   extraPackages = with pkgs; [
     # >>> Language servers
+    black
     gopls
     helm-ls
     lua-language-server
