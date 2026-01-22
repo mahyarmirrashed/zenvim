@@ -195,6 +195,22 @@
         "type": "github"
       }
     },
+    "oil-git-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1768304743,
+        "narHash": "sha256-Cnvyk2a3AgCBUCSFjAfEbuAj6MwRTtdxSk3LheG6beY=",
+        "owner": "malewicz1337",
+        "repo": "oil-git.nvim",
+        "rev": "c5369277b6b9ef1713656ffed20c53010f49ea8f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "malewicz1337",
+        "repo": "oil-git.nvim",
+        "type": "github"
+      }
+    },
     "oklch-color-picker-nvim": {
       "flake": false,
       "locked": {
@@ -216,6 +232,7 @@
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
         "nixpkgs": "nixpkgs_2",
+        "oil-git-nvim": "oil-git-nvim",
         "oklch-color-picker-nvim": "oklch-color-picker-nvim"
       }
     },
