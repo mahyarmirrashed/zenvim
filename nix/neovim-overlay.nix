@@ -92,6 +92,7 @@ let
     black
     gopls
     helm-ls
+    isort
     lua-language-server
     nixd
     svelte-language-server
