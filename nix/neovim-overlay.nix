@@ -89,10 +89,8 @@ let
 
   extraPackages = with pkgs; [
     # >>> Language servers
-    black
     gopls
     helm-ls
-    isort
     lua-language-server
     nixd
     svelte-language-server
@@ -104,8 +102,10 @@ let
     # >>> Linters
     hadolint
     # >>> Formatters
+    black
     gofumpt
     gotools
+    isort
     jq
     nixfmt-rfc-style
     prettierd
