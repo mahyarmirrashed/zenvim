@@ -89,6 +89,7 @@ let
 
   extraPackages = with pkgs; [
     # >>> Language servers
+    basedpyright
     gopls
     helm-ls
     lua-language-server

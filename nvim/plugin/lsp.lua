@@ -20,6 +20,12 @@ require("lze").load({
   },
   -- LSP server definitions
   {
+    "basedpyright",
+    lsp = {
+      filetypes = { "python" },
+    },
+  },
+  {
     "lua_ls",
     lsp = {
       filetypes = { "lua" },
