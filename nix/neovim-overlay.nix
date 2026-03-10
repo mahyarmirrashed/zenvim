@@ -109,6 +109,7 @@ let
     isort
     jq
     nixfmt-rfc-style
+    python313Packages.docformatter
     prettierd
     rustfmt
     shfmt
