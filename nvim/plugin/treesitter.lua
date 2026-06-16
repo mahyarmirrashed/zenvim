@@ -4,7 +4,7 @@ require("lze").load({
     dep_of = { "treesj", "nvim-ts-autotag", "auto-fix-return", "render-markdown" },
     event = "DeferredUIEnter",
     after = function(_)
-      require("nvim-treesitter.configs").setup({
+      require("nvim-treesitter.config").setup({
         highlight = { enable = true },
         indent = { enable = false },
         incremental_selection = {
