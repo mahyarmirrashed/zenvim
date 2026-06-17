@@ -64,6 +64,12 @@ require("lze").load({
     },
   },
   {
+    "buf_ls",
+    lsp = {
+      filetypes = { "proto" },
+    },
+  },
+  {
     "svelte",
     lsp = {
       filetypes = { "svelte" },
