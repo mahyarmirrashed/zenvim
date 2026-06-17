@@ -12,14 +12,6 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
-    oklch-color-picker-nvim = {
-      url = "github:eero-lehtinen/oklch-color-picker.nvim";
-      flake = false;
-    };
-    oil-git-nvim = {
-      url = "github:malewicz1337/oil-git.nvim";
-      flake = false;
-    };
   };
 
   outputs =
