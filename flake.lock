@@ -60,11 +60,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1724097937,
-        "narHash": "sha256-Q4tgm8ZHAQUdvsNft86MqIbHQAm7OF7RT/wwYWXqSdY=",
+        "lastModified": 1755304025,
+        "narHash": "sha256-xVKfjFwc0zMbLMjLTiHz+0llggkjs93SmHkhaa9S3M4=",
         "owner": "mrcjkb",
         "repo": "nix-gen-luarc-json",
-        "rev": "b36b69c4ded9f31b079523bc452e23458734cf00",
+        "rev": "1865b0ebb753ae5324d7381b1fa8c98c04ec7509",
         "type": "github"
       },
       "original": {
@@ -195,45 +195,11 @@
         "type": "github"
       }
     },
-    "oil-git-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1768304743,
-        "narHash": "sha256-Cnvyk2a3AgCBUCSFjAfEbuAj6MwRTtdxSk3LheG6beY=",
-        "owner": "malewicz1337",
-        "repo": "oil-git.nvim",
-        "rev": "c5369277b6b9ef1713656ffed20c53010f49ea8f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "malewicz1337",
-        "repo": "oil-git.nvim",
-        "type": "github"
-      }
-    },
-    "oklch-color-picker-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1757009636,
-        "narHash": "sha256-9T+1JQhJvuaRNg1ZgyBy1dr9yOX2hVexjPeGlZBTGXY=",
-        "owner": "eero-lehtinen",
-        "repo": "oklch-color-picker.nvim",
-        "rev": "ae318113cd7d0e4988b6b059327c2778911f1187",
-        "type": "github"
-      },
-      "original": {
-        "owner": "eero-lehtinen",
-        "repo": "oklch-color-picker.nvim",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
-        "nixpkgs": "nixpkgs_2",
-        "oil-git-nvim": "oil-git-nvim",
-        "oklch-color-picker-nvim": "oklch-color-picker-nvim"
+        "nixpkgs": "nixpkgs_2"
       }
     },
     "systems": {
