@@ -79,7 +79,6 @@ let
     jdd-nvim # https://github.com/mahyarmirrashed/jdd.nvim
     lazydocker-nvim # https://github.com/crnvl96/lazydocker.nvim
     mini-surround # https://github.com/echasnovski/mini.surround
-    schema-companion-nvim # https://github.com/cenk1cenk2/schema-companion.nvim
     which-key-nvim # https://github.com/folke/which-key.nvim
     # >>> Plugin dependencies
     plenary-nvim
