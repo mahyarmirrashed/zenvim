@@ -146,6 +146,14 @@ require("lze").load({
   },
   {
     "yamlls",
-    lsp = require("schema-companion").setup_client(),
+    lsp = {
+      filetypes = { "yaml" },
+      settings = {
+        yaml = {
+          schemaStore = { enable = true },
+          kubernetesCRDStore = { enable = true },
+        },
+      },
+    },
   },
 })
