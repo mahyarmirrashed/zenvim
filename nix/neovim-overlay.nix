@@ -99,6 +99,7 @@ let
     tinymist
     typescript-language-server
     rust-analyzer
+    vscode-langservers-extracted
     yaml-language-server
     # >>> Linters
     hadolint
