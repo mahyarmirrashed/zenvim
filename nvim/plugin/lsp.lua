@@ -151,6 +151,18 @@ require("lze").load({
     },
   },
   {
+    "jsonls",
+    lsp = {
+      filetypes = { "json", "jsonc" },
+      settings = {
+        json = {
+          validate = { enable = true },
+          schemaStore = { enable = true, url = "https://www.schemastore.org/api/json/catalog.json" },
+        },
+      },
+    },
+  },
+  {
     "yamlls",
     lsp = {
       filetypes = { "yaml" },
