@@ -4,9 +4,6 @@ vim.g.mapleader = " "
 -- Enable filetype detection, plugins, and indentation
 vim.cmd.filetype('plugin', 'indent', 'on')
 
--- Enables setting LSPs within the `lze` specs
-require("lze").register_handlers(require("lzextras").lsp)
-
 -- Ensure that cache directory is made
 vim.fn.mkdir(vim.fn.stdpath("cache"), "p")
 
