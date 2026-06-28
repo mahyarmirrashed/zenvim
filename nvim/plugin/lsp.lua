@@ -86,6 +86,7 @@ require("lze").load({
   {
     "tailwindcss",
     lsp = {
+      filetypes = { "html", "javascript", "javascriptreact", "typescript", "typescriptreact", "svelte" },
       settings = {
         tailwindCSS = {
           classFunctions = { "clsx" },

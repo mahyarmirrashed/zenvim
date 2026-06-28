@@ -1,6 +1,9 @@
 -- Set leader key
 vim.g.mapleader = " "
 
+-- Enable filetype detection, plugins, and indentation
+vim.cmd.filetype('plugin', 'indent', 'on')
+
 -- Enables setting LSPs within the `lze` specs
 require("lze").register_handlers(require("lzextras").lsp)
 
