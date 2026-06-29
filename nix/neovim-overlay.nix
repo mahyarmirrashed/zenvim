@@ -35,7 +35,6 @@ let
     # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
     lze # https://github.com/BirdeeHub/lze
-    lzextras # https://github.com/BirdeeHub/lzextras
     # >>> Editor
     auto-session # https://github.com/rmagatti/auto-session
     blink-cmp # https://github.com/Saghen/blink.cmp
