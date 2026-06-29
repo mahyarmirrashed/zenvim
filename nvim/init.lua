@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 -- Enable filetype detection, plugins, and indentation
-vim.cmd.filetype('plugin', 'indent', 'on')
+vim.cmd.filetype("plugin", "indent", "on")
 
 -- Ensure that cache directory is made
 vim.fn.mkdir(vim.fn.stdpath("cache"), "p")

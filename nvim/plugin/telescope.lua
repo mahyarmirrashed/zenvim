@@ -16,7 +16,11 @@ require("lze").load({
     { "<leader>fc", tf("commands"), desc = "Search Commands" },
     { "<leader>fC", tf("command_history"), desc = "Search Command History" },
     { "<leader>fd", tf("diagnostics"), desc = "Search Diagnostics (All)" },
-    { "<leader>fD", tf("diagnostics", { bufnr = 0 }), desc = "Search Diagnostics (Buffer)" },
+    {
+      "<leader>fD",
+      tf("diagnostics", { bufnr = 0 }),
+      desc = "Search Diagnostics (Buffer)",
+    },
     { "<leader>ff", tf("find_files"), desc = "Search Files" },
     { "<leader>fF", tf("find_files", { hidden = true }), desc = "Search All Files" },
     { "<leader>fg", tf("git_files"), desc = "Search Git Files" },

@@ -28,6 +28,11 @@ require("lze").load({
       )
     end
     -- <leader>0 jumps to the last buffer
-    vim.keymap.set("n", "<leader>0", ":b#<cr>", { noremap = true, silent = true, desc = "Go to last buffer" })
+    vim.keymap.set(
+      "n",
+      "<leader>0",
+      ":b#<cr>",
+      { noremap = true, silent = true, desc = "Go to last buffer" }
+    )
   end,
 })

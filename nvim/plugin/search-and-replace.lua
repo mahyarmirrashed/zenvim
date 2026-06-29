@@ -10,7 +10,12 @@ local function prompt_search_and_replace(opts)
     prompt_input("Search: ", function(search)
       prompt_input("Replace: ", function(replace)
         prompt_input("Glob (optional, e.g. *.lua): ", function(glob)
-          local cmd = string.format("SearchAndReplace %s %s%s", search, replace, glob and (" " .. glob) or "")
+          local cmd = string.format(
+            "SearchAndReplace %s %s%s",
+            search,
+            replace,
+            glob and (" " .. glob) or ""
+          )
           vim.cmd(cmd)
         end, { optional = true })
       end)
@@ -18,7 +23,11 @@ local function prompt_search_and_replace(opts)
   elseif opts.mode == "x" then
     prompt_input("Replace: ", function(replace)
       prompt_input("Glob (optional, e.g. *.lua): ", function(glob)
-        local cmd = string.format("'<,'>SearchAndReplaceVisual %s%s", replace, glob and (" " .. glob) or "")
+        local cmd = string.format(
+          "'<,'>SearchAndReplaceVisual %s%s",
+          replace,
+          glob and (" " .. glob) or ""
+        )
         vim.cmd(cmd)
       end, { optional = true })
     end)

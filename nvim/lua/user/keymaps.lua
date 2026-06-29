@@ -1,8 +1,18 @@
 -- Buffer navigation
 vim.keymap.set("n", "<tab>", "<cmd>bn<cr>", { desc = "Next buffer" })
 vim.keymap.set("n", "<s-tab>", "<cmd>bp<cr>", { desc = "Previous buffer" })
-vim.keymap.set("n", "<leader>bd", "<cmd>bd!<cr>", { desc = "Close Buffer", noremap = true, silent = true })
-vim.keymap.set("n", "<leader>c", "<cmd>bd!<cr>", { desc = "Close Buffer", noremap = true, silent = true })
+vim.keymap.set(
+  "n",
+  "<leader>bd",
+  "<cmd>bd!<cr>",
+  { desc = "Close Buffer", noremap = true, silent = true }
+)
+vim.keymap.set(
+  "n",
+  "<leader>c",
+  "<cmd>bd!<cr>",
+  { desc = "Close Buffer", noremap = true, silent = true }
+)
 
 -- Indentation
 vim.keymap.set("n", "<", "<s-v><", { desc = "Decrement line indentation" })

@@ -6,7 +6,9 @@ vim.lsp.config("*", {
 -- LSP keymaps (buffer-local, set on attach)
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(ev)
-    local map = function(keys, func, desc) vim.keymap.set("n", keys, func, { buffer = ev.buf, desc = desc }) end
+    local map = function(keys, func, desc)
+      vim.keymap.set("n", keys, func, { buffer = ev.buf, desc = desc })
+    end
     map("<leader>rn", vim.lsp.buf.rename, "Rename")
     map("<leader>la", vim.lsp.buf.code_action, "Code Action")
     map("K", vim.lsp.buf.hover, "Hover Documentation")
@@ -111,7 +113,10 @@ vim.lsp.config("jsonls", {
   settings = {
     json = {
       validate = { enable = true },
-      schemaStore = { enable = true, url = "https://www.schemastore.org/api/json/catalog.json" },
+      schemaStore = {
+        enable = true,
+        url = "https://www.schemastore.org/api/json/catalog.json",
+      },
     },
   },
 })

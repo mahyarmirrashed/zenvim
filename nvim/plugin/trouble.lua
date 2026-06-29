@@ -10,7 +10,9 @@ require("lze").load({
     },
     {
       "<leader>xX",
-      function() require("trouble").toggle({ mode = "diagnostics", filter = { buf = 0 } }) end,
+      function()
+        require("trouble").toggle({ mode = "diagnostics", filter = { buf = 0 } })
+      end,
       desc = "Buffer Diagnostics (Trouble)",
     },
   },
