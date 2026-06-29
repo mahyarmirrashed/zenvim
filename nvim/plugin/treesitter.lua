@@ -1,7 +1,5 @@
 require("nvim-treesitter.config").setup()
 
-require("nvim-ts-autotag").setup()
-
 vim.api.nvim_create_augroup("TreesitterHighlight", { clear = true })
 vim.api.nvim_create_autocmd("FileType", {
   group = "TreesitterHighlight",
