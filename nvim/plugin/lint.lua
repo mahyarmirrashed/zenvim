@@ -1,14 +1,11 @@
-require("lze").load({
-  "nvim-lint",
-  event = "BufReadPost",
-  after = function(_)
-    require("lint").linters_by_ft = {
-      dockerfile = { "hadolint" },
-      alpha = {},
-    }
+local lint = require("lint")
 
-    vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost" }, {
-      callback = function() require("lint").try_lint() end,
-    })
-  end,
+lint.linters_by_ft = {
+  dockerfile = { "hadolint" },
+}
+
+vim.api.nvim_create_augroup("Linting", { clear = true })
+vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost" }, {
+  group = "Linting",
+  callback = function() lint.try_lint() end,
 })

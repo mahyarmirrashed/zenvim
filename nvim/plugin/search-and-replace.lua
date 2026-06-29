@@ -1,3 +1,5 @@
+require("search-and-replace").setup()
+
 local function prompt_search_and_replace(opts)
   local function prompt_input(label, cb, _opts)
     _opts = _opts or {}
@@ -34,22 +36,16 @@ local function prompt_search_and_replace(opts)
   end
 end
 
-require("lze").load({
-  "search-and-replace.nvim",
-  lazy = false,
-  keys = {
-    {
-      "<leader>fr",
-      function() prompt_search_and_replace({ mode = "n" }) end,
-      desc = "Search and replace for file",
-      mode = "n",
-    },
-    {
-      "<leader>fr",
-      function() prompt_search_and_replace({ mode = "x" }) end,
-      desc = "Search and replace for selection",
-      mode = "x",
-    },
-  },
-  after = function(_) require("search-and-replace").setup() end,
-})
+vim.keymap.set(
+  "n",
+  "<leader>fr",
+  function() prompt_search_and_replace({ mode = "n" }) end,
+  { desc = "Search and replace for file" }
+)
+
+vim.keymap.set(
+  "x",
+  "<leader>fr",
+  function() prompt_search_and_replace({ mode = "x" }) end,
+  { desc = "Search and replace for selection" }
+)
