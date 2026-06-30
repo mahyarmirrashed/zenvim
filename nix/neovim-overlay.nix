@@ -34,6 +34,8 @@ let
     # Plugins from nixpkgs go in here.
     # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
+    nvim-treesitter-context # https://github.com/nvim-treesitter/nvim-treesitter-context
+    nvim-ts-context-commentstring # https://github.com/JoosepAlviste/nvim-ts-context-commentstring
     lze # https://github.com/BirdeeHub/lze
     # >>> Editor
     auto-session # https://github.com/rmagatti/auto-session
