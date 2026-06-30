@@ -6,12 +6,11 @@ vim.api.nvim_create_autocmd("FileType", {
   callback = function(ev) pcall(vim.treesitter.start, ev.buf) end,
 })
 
-require("lze").load({
-  {
-    "treesj",
-    keys = {
-      { "<leader>m", function() require("treesj").toggle() end, "Toggle Splitjoin" },
-    },
-    after = function(_) require("treesj").setup({ use_default_keymaps = false }) end,
-  },
-})
+require("treesj").setup({ use_default_keymaps = false })
+
+vim.keymap.set(
+  "n",
+  "<leader>m",
+  function() require("treesj").toggle() end,
+  { desc = "Toggle Splitjoin" }
+)
