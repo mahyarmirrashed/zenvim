@@ -1,18 +1,16 @@
 -- Ignore certain vim.notify notifications
 local ignored_messages = {
-  "failed to get nvim-treesitter parser",
   "checkmate: saved",
 }
 
 local notify = vim.notify
-vim.notify = function(msg, level, opts)
+
+---@diagnostic disable-next-line: duplicate-set-field
+vim.notify = function(msg, ...)
   if type(msg) == "string" then
-    local lower_msg = msg:lower()
-    for _, message in ipairs(ignored_messages) do
-      if lower_msg:find(message:lower(), 1, true) then
-        return -- Ignore this message
-      end
+    for _, i in ipairs(ignored_messages) do
+      if msg:lower():find(i:lower(), 1, true) then return end
     end
   end
-  notify(msg, level, opts)
+  notify(msg, ...)
 end
