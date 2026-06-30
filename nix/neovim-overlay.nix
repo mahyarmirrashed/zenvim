@@ -68,7 +68,6 @@ let
     oklch-color-picker-nvim # https://github.com/eero-lehtinen/oklch-color-picker.nvim
     oil-git-nvim # https://github.com/malewicz1337/oil-git.nvim
     # >>> Miscellaneous
-    auto-fix-return-nvim # https://github.com/Jay-Madden/auto-fix-return.nvim
     better-escape-nvim # https://github.com/max397574/better-escape.nvim
     checkmate-nvim # https://github.com/bngarren/checkmate.nvim
     cloak-nvim # https://github.com/laytan/cloak.nvim
