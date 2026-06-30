@@ -64,6 +64,12 @@ vim.keymap.set(
 vim.keymap.set("n", "<leader>fq", tf("quickfix"), { desc = "Search Quickfix List" })
 vim.keymap.set({ "n", "x" }, "<leader>fw", tf("live_grep"), { desc = "Search Words" })
 vim.keymap.set(
+  { "n", "x" },
+  "<leader>fW",
+  tf("live_grep", { additional_args = { "--hidden" } }),
+  { desc = "Search All Words" }
+)
+vim.keymap.set(
   "n",
   "<leader>f.",
   tf("current_buffer_fuzzy_find"),
