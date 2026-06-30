@@ -34,6 +34,7 @@ let
     # Plugins from nixpkgs go in here.
     # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
+    nvim-origami # https://github.com/chrisgrieser/nvim-origami
     nvim-treesitter-context # https://github.com/nvim-treesitter/nvim-treesitter-context
     nvim-ts-context-commentstring # https://github.com/JoosepAlviste/nvim-ts-context-commentstring
     lze # https://github.com/BirdeeHub/lze
