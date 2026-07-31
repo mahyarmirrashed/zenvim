@@ -133,18 +133,14 @@ let
   ];
 in
 {
-  # This is the neovim derivation
-  # returned by the overlay
-  nvim-pkg = mkNeovim {
+  zenvim = mkNeovim {
     plugins = all-plugins;
     inherit extraPackages;
     appName = "zenvim";
   };
 
-  # This is meant to be used within a devshell.
-  # Instead of loading the lua Neovim configuration from
-  # the Nix store, it is loaded from $XDG_CONFIG_HOME/nvim-dev
-  nvim-dev = mkNeovim {
+  # This is loaded from $XDG_CONFIG_HOME/nvim-dev
+  zenvim-dev = mkNeovim {
     plugins = all-plugins;
     inherit extraPackages;
     appName = "zenvim-dev";
@@ -155,19 +151,4 @@ in
   nvim-luarc-json = final.mk-luarc-json {
     plugins = all-plugins;
   };
-
-  # You can add as many derivations as you like.
-  # Use `ignoreConfigRegexes` to filter out config
-  # files you would not like to include.
-  #
-  # For example:
-  #
-  # nvim-pkg-no-telescope = mkNeovim {
-  #   plugins = [];
-  #   ignoreConfigRegexes = [
-  #     "^plugin/telescope.lua"
-  #     "^ftplugin/.*.lua"
-  #   ];
-  #   inherit extraPackages;
-  # };
 }
