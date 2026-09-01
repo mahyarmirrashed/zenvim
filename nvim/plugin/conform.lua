@@ -24,10 +24,6 @@ require("lze").load({
         docformatter = {
           prepend_args = {
             "--black",
-            "--wrap-summaries",
-            "72",
-            "--wrap-descriptions",
-            "72",
           },
         },
       },
