@@ -12,20 +12,13 @@ require("lze").load({
         lua = { "stylua" },
         markdown = { "prettierd" },
         nix = { "nixfmt" },
-        python = { "isort", "docformatter", "black" },
+        python = { "isort", "black" },
         rust = { "rustfmt" },
         sh = { "shfmt" },
         toml = { "taplo" },
         typescript = { "prettierd" },
         typst = { "typstyle" },
         yaml = { "yamlfmt" },
-      },
-      formatters = {
-        docformatter = {
-          prepend_args = {
-            "--black",
-          },
-        },
       },
       format_on_save = {
         lsp_fallback = true,

@@ -111,7 +111,6 @@ let
     isort
     jq
     nixfmt
-    python313Packages.docformatter
     prettierd
     rustfmt
     shfmt
