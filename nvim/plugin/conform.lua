@@ -6,6 +6,7 @@ require("lze").load({
       formatters_by_ft = {
         css = { "prettierd" },
         go = { "gofumpt", "goimports" },
+        kotlin = { "ktlint" },
         html = { "prettierd" },
         javascript = { "prettierd" },
         json = { "jq" },

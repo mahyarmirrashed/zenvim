@@ -107,6 +107,7 @@ let
     # >>> Formatters
     black
     gofumpt
+    ktlint
     gotools
     isort
     jq
