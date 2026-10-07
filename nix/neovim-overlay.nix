@@ -98,8 +98,8 @@ let
     svelte-language-server
     tailwindcss-language-server
     tinymist
-    typescript-language-server
     rust-analyzer
+    typescript-language-server
     vscode-langservers-extracted
     yaml-language-server
     # >>> Linters
@@ -107,10 +107,11 @@ let
     # >>> Formatters
     black
     gofumpt
-    ktlint
     gotools
     isort
     jq
+    ktlint
+    libxml2
     nixfmt
     prettierd
     rustfmt
@@ -118,6 +119,7 @@ let
     stylua
     taplo
     typstyle
+    xmlformat
     yamlfmt
     # >>> Dependencies
     cargo

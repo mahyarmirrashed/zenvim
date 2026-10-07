@@ -6,9 +6,9 @@ require("lze").load({
       formatters_by_ft = {
         css = { "prettierd" },
         go = { "gofumpt", "goimports" },
-        kotlin = { "ktlint" },
         html = { "prettierd" },
         javascript = { "prettierd" },
+        kotlin = { "ktlint" },
         json = { "jq" },
         lua = { "stylua" },
         markdown = { "prettierd" },
@@ -19,6 +19,7 @@ require("lze").load({
         toml = { "taplo" },
         typescript = { "prettierd" },
         typst = { "typstyle" },
+        xml = { "xmlformat" },
         yaml = { "yamlfmt" },
       },
       format_on_save = {
