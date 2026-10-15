@@ -22,6 +22,9 @@ require("lze").load({
         xml = { "prettierd" },
         yaml = { "yamlfmt" },
       },
+      formatters = {
+        ktlint = { timeout_ms = 5000 },
+      },
       format_on_save = {
         lsp_fallback = true,
         timeout_ms = 500,
