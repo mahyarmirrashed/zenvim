@@ -19,7 +19,7 @@ require("lze").load({
         toml = { "taplo" },
         typescript = { "prettierd" },
         typst = { "typstyle" },
-        xml = { "xmlformat" },
+        xml = { "prettierd" },
         yaml = { "yamlfmt" },
       },
       format_on_save = {

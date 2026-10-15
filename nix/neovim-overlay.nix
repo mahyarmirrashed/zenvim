@@ -111,7 +111,6 @@ let
     isort
     jq
     ktlint
-    libxml2
     nixfmt
     prettierd
     rustfmt
@@ -119,7 +118,6 @@ let
     stylua
     taplo
     typstyle
-    xmlformat
     yamlfmt
     # >>> Dependencies
     cargo
