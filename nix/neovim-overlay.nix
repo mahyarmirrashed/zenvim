@@ -110,6 +110,7 @@ let
     gotools
     isort
     jq
+    ktfmt
     ktlint
     nixfmt
     prettierd
