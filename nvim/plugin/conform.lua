@@ -23,7 +23,7 @@ require("lze").load({
         yaml = { "yamlfmt" },
       },
       format_after_save = {
-        lsp_fallback = true,
+        lsp_format = "fallback",
       },
     })
   end,
