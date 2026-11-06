@@ -49,7 +49,7 @@
             nil
             stylua
             luajitPackages.luacheck
-            nvim-dev
+            zenvim-dev
           ];
           shellHook = ''
             # symlink the .luarc.json generated in the overlay
