@@ -40,7 +40,7 @@ vim.keymap.set("n", "<leader>ff", tf("find_files"), { desc = "Search Files" })
 vim.keymap.set(
   "n",
   "<leader>fF",
-  tf("find_files", { hidden = true }),
+  tf("find_files", { hidden = true, no_ignore = true }),
   { desc = "Search All Files" }
 )
 vim.keymap.set("n", "<leader>fg", tf("git_files"), { desc = "Search Git Files" })
@@ -66,7 +66,7 @@ vim.keymap.set({ "n", "x" }, "<leader>fw", tf("live_grep"), { desc = "Search Wor
 vim.keymap.set(
   { "n", "x" },
   "<leader>fW",
-  tf("live_grep", { additional_args = { "--hidden" } }),
+  tf("live_grep", { additional_args = { "--hidden", "--no-ignore" } }),
   { desc = "Search All Words" }
 )
 vim.keymap.set(
