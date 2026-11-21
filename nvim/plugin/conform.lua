@@ -9,7 +9,6 @@ require("lze").load({
         html = { "prettierd" },
         javascript = { "prettierd" },
         kotlin = { "ktlint", "ktfmt" },
-        json = { "jq" },
         lua = { "stylua" },
         markdown = { "prettierd" },
         nix = { "nixfmt" },

@@ -108,7 +108,6 @@ let
     # >>> Formatters
     gofumpt
     gotools
-    jq
     ktfmt
     ktlint
     nixfmt
