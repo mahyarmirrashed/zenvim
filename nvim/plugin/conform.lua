@@ -13,7 +13,7 @@ require("lze").load({
         lua = { "stylua" },
         markdown = { "prettierd" },
         nix = { "nixfmt" },
-        python = { "isort", "black" },
+        python = { "ruff_organize_imports", "ruff_format" },
         rust = { "rustfmt" },
         sh = { "shfmt" },
         toml = { "taplo" },

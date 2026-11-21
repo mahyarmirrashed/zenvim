@@ -106,15 +106,14 @@ let
     # >>> Linters
     hadolint
     # >>> Formatters
-    black
     gofumpt
     gotools
-    isort
     jq
     ktfmt
     ktlint
     nixfmt
     prettierd
+    ruff
     rustfmt
     shfmt
     stylua
