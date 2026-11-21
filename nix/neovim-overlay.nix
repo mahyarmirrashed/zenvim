@@ -94,6 +94,7 @@ let
     gopls
     helm-ls
     lua-language-server
+    markdown-oxide
     nixd
     svelte-language-server
     tailwindcss-language-server

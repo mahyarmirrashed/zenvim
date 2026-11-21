@@ -27,6 +27,14 @@ vim.lsp.config("lua_ls", {
   },
 })
 
+vim.lsp.config("markdown_oxide", {
+  capabilities = {
+    workspace = {
+      didChangeWatchedFiles = { dynamicRegistration = true },
+    },
+  },
+})
+
 vim.lsp.config("gopls", {
   filetypes = { "go", "gomod", "gowork", "gotmpl" },
 })
